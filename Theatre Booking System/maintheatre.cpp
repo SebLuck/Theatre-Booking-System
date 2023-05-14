@@ -39,7 +39,7 @@ int main()
     std::string optionNum = "-1";
     std::string menuBooking = "-1";
     std::cout << "\nTheatre Menu" << std::endl;
-    std::cout << "Enter a number that match the following option:" << std::endl;
+    std::cout << "Enter a number that matches the following option:" << std::endl;
     std::cout << "1 - Add a booking." << std::endl;
     std::cout << "2 - List all events." << std::endl;
     std::cout << "3 - List details and availability of a given event." << std::endl;
@@ -61,7 +61,7 @@ int main()
       {
         std::string cancelBooking = "-1";
         std::cout << "\nAdd Booking" << std::endl;
-	    std::cout << "Enter a number that match the following option:" << std::endl;
+	    std::cout << "Enter a number that matches the following option:" << std::endl;
 	    std::cout << "1 - Add booking for live music." << std::endl;
 	    std::cout << "2 - Add booking for stand-up comedy." << std::endl;
 	    std::cout << "3 - Add booking for film." << std::endl;
@@ -277,7 +277,7 @@ int main()
         while (optionNum != "0")
         {
             std::cout << "\nEvent Details and availability" << std::endl;
-            std::cout << "Enter a number that match the following option: " << std::endl;
+            std::cout << "Enter a number that matches the following option: " << std::endl;
             std::cout << "1 - Details about live music." << std::endl;
             std::cout << "2 - Details about stand-up comedy." << std::endl;
             std::cout << "3 - Details about film." << std::endl;
